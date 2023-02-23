@@ -7,8 +7,12 @@ refs.button.addEventListener("click", onBtnChangeColorClick);
 
 function onBtnChangeColorClick() {
   // console.log(getRandomHexColor());
-  refs.spanColor.textContent = getRandomHexColor();
-  document.body.style.backgroundColor = getRandomHexColor();
+  let randomValue = getRandomHexColor();
+
+  refs.spanColor.textContent = randomValue;
+  document.body.style.backgroundColor = randomValue;
+  // refs.spanColor.textContent = getRandomHexColor();
+  // document.body.style.backgroundColor = getRandomHexColor();
 }
 //  refs.spanColor.style.backgroundColor = getRandomHexColor();
 function getRandomHexColor() {
