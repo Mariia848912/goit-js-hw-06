@@ -22,6 +22,5 @@ const makeImge = images
   )
   .join("");
 
-// console.log(makeImge);
 
 listEl.insertAdjacentHTML("beforeend", makeImge);

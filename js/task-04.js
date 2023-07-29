@@ -3,7 +3,6 @@ const refs = {
   btnIncrement: document.querySelector('[data-action="increment"]'),
   value: document.querySelector("#value"),
 };
-// console.log((refs.value.textCont/ent = 1));
 refs.btnDecrement.addEventListener("click", onButtonDecrementClick);
 
 let counterValue = 0;
